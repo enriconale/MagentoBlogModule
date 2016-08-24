@@ -59,7 +59,7 @@ class Alpenite_Blog_Block_Adminhtml_Post_Grid extends Mage_Adminhtml_Block_Widge
         /**
          * When a grid row is clicked, this is where the user should
          * be redirected to - in our example, the method editAction of
-         * AlpeniteController.php.
+         * PostController.php.
          */
         return $this->getUrl(
             '*/*/edit',
