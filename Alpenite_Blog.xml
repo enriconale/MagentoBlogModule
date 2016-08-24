@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Alpenite_Blog>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Alpenite_Blog>
+    </modules>
+</config>
