@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <alpenite_blog_index_index>
+        <reference name="root">
+            <action method="setTemplate"><template>page/bulgari.phtml</template></action>
+        </reference>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/bridal.css</name>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <script>jquery/jquery-1.10.2.min.js</script>
+                <params/>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <script>jquery/jquery-migrate-1.2.1.min.js</script>
+                <params/>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <script>jquery/jquery-noconflict.js</script>
+                <params/>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="alpenite_blog/post" name="post" template="alpenite_blog/template.phtml"/>
+        </reference>
+    </alpenite_blog_index_index>
+</layout>

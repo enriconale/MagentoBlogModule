@@ -91,6 +91,13 @@
                 </args>
             </alpenite_blog>
         </routers>
+        <layout>
+            <updates>
+                <alpenite_blog>
+                    <file>alpenite_blog.xml</file>
+                </alpenite_blog>
+            </updates>
+        </layout>
     </frontend>
     <admin>
         <routers>

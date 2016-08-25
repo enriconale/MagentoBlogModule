@@ -37,11 +37,6 @@ class Alpenite_Blog_Block_Adminhtml_Post_Edit_Form extends Mage_Adminhtml_Block_
             'name' => 'content'
         ));
 
-//        if (Mage::getSingleton('admin/session')->isAllowed('alpenite_blog/newattribute')) {
-//                $headerBar = $this->getLayout()->createBlock('alpenite_blog/adminhtml_pogo_edit_attributes_create');
-//                $fieldset->setHeaderBar($headerBar->toHtml());
-//        }
-
         $form->setUseContainer(true);
         $form->setValues($data);
         $this->setForm($form);
