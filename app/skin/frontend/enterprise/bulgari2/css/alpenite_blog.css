@@ -1,0 +1,25 @@
+.posts_container {
+    margin-top: 240px !important;
+    margin-bottom: 120px;
+    margin-left: 40px;
+}
+
+.single_post_container {
+    font-family: Lato, Arial, sans-serif;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.post_title {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.post_author {
+    font-style: italic;
+    font-size: 95%;
+}
+
+.post_content {
+    margin-top: 15px;
+}

@@ -7,7 +7,7 @@
         <reference name="head">
             <action method="addItem">
                 <type>skin_css</type>
-                <name>css/bridal.css</name>
+                <name>css/alpenite_blog.css</name>
             </action>
             <action method="addItem">
                 <type>js</type>

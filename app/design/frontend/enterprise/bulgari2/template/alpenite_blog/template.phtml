@@ -1,0 +1,12 @@
+<?php $postsCollection = $this->getData("posts_collection"); ?>
+<div class="posts_container">
+    <?php
+    foreach ($postsCollection as $post) { ?>
+        <div class="single_post_container">
+            <h1 class="post_title"><?php echo $post->getTitle(); ?></h1>
+            <h3 class="post_author"><?php echo $post->getAuthor(); ?></h3>
+            <p class="post_content"><?php echo $post->getContent(); ?></p>
+            <hr>
+        </div>
+    <?php } ?>
+</div>
